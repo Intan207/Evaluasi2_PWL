@@ -1,0 +1,88 @@
+/* styles/globals.css */
+
+/* Styling untuk body secara umum */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Styling untuk header halaman berita */
+h1 {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 2.5rem;
+  color: #333;
+}
+
+/* Styling untuk daftar artikel */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Styling untuk setiap artikel */
+li {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efek hover untuk artikel */
+li:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Styling untuk judul artikel */
+h3 {
+  font-size: 1.5rem;
+  color: #0073e6;
+  margin-bottom: 10px;
+}
+
+/* Styling untuk gambar artikel */
+img {
+  border-radius: 8px;
+  margin-top: 15px;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  border: 2px solid #eee;
+}
+
+/* Styling untuk deskripsi artikel */
+p {
+  font-size: 1rem;
+  margin-top: 10px;
+  color: #555;
+}
+
+/* Styling untuk link "Read more" */
+a {
+  font-size: 1rem;
+  color: #0073e6;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 15px;
+  display: inline-block;
+}
+
+/* Hover effect untuk link "Read more" */
+a:hover {
+  text-decoration: underline;
+}
+
+/* Loader ketika artikel sedang dimuat */
+p.loading {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #0073e6;
+  padding: 50px;
+}
